@@ -1,0 +1,52 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lobster&family=Open+Sans:wght@400;600;700;800&family=Oswald&family=Poppins:wght@400;500&family=Roboto:wght@400;700&family=Work+Sans:wght@500;600;700;800&display=swap");
+
+/* Common Styles */
+body {
+  font-family: "Poppins", sans-serif;
+  background: #f3f1ff;
+}
+main {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  background: #ffffff;
+  width: 870px;
+  padding: 30px;
+  border-radius: 10px;
+}
+hr {
+  
+  border: 1px solid #d1d1d1;
+}
+/* Top Player Area Styles */
+.top-players{
+    margin-bottom: 40px;
+}
+.section-title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  margin-top: 3px;
+  color: #562eff;
+}
+
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 30px;
+}
+.player {
+  display: flex;
+  align-items: center;
+}
+.player img {
+  width: 56px;
+  height: 56px;
+}
+.player-name {
+  margin-left: 16px;
+  font-weight: 500;
+  font-size: 18px;
+}
